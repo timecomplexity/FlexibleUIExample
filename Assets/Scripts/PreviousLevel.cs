@@ -8,7 +8,7 @@ public class PreviousLevel : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         GameObject canvas = GameObject.FindGameObjectWithTag("Canvas");
-        this.prompt = (GameObject)Instantiate(Resources.Load("UI/Prompt/Prompt_NextLevel"), canvas.transform, false);
+        this.prompt = (GameObject)Instantiate(Resources.Load("UI/Prompt/Prompt_PrevLevel"), canvas.transform, false);
         Button[] buttons = this.prompt.GetComponentsInChildren<Button>();
 
         foreach (Button b in buttons)
