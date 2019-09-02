@@ -112,7 +112,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.26347506, y: 0.12789747}
-  m_AnchoredPosition: {x: 0, y: 2.5}
+  m_AnchoredPosition: {x: 866, y: 296}
   m_SizeDelta: {x: -236.5, y: -47.799988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115651217095921174
@@ -211,5 +211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67610fb1e37ed5343b581403a0c59a4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skinData: {fileID: 11400000, guid: 6e7fab58996d5e1498f3061177097981, type: 2}
+  buttonSkinData: {fileID: 11400000, guid: 6e7fab58996d5e1498f3061177097981, type: 2}
+  textBoxSkinData: {fileID: 0}
   typeOfButton: 0

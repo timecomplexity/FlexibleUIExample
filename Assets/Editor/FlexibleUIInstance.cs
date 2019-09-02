@@ -5,10 +5,16 @@ public class FlexibleUIInstance : Editor
 {
     static GameObject clickedObject;
 
-    [MenuItem("GameObject/Flelxible UI/Button", priority = 0)]
+    [MenuItem("GameObject/Flexible UI/Button", priority = 0)]
     public static void AddButton()
     {
         Create("UI/Button/Button");
+    }
+
+    [MenuItem("GameObject/Flexible UI/TextBox", priority = 1)]
+    public static void AddTextBox()
+    {
+        Create("UI/TextBox/TextBox");
     }
 
 

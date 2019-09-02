@@ -5,11 +5,8 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class FlexibleUI : MonoBehaviour
 {
-    [SerializeField]
-    protected FlexibleUIButtonData buttonSkinData;
-
-    [SerializeField]
-    protected FlexibleUITextBoxData textBoxSkinData;
+    public FlexibleUIButtonData buttonSkinData;
+    public FlexibleUITextBoxData textBoxSkinData;
 
     public virtual void Awake()
     {
